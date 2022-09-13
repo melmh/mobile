@@ -1,5 +1,4 @@
-body {background: lightgrey;}
-header {padding: 7rem 2rem 0;}
+header {position: absolute; left: 0; top: 0; right: 0; z-index: 100; padding: 7rem 2rem 0;}
 header .top {display: flex; justify-content: space-between;}
 header .top div a {display: inline-block; width: 4rem; height: 4rem;}
 header .top div a.ico_location {background: url(../image/icon_map.png) no-repeat center / 2.3rem auto;} 
@@ -11,3 +10,15 @@ header .top div a.ico_alarm {background: url(../image/icon_alarm.png) no-repeat 
 .gnb ul {display: flex; justify-content: space-between;}
 .gnb ul a {display: block; padding: 0 1.2rem; line-height: 3.5rem; color: #fff; font-weight: 500; font-size: 1.8rem; border-radius: 3.5rem;}
 .gnb ul .active a {color: #F17785; background-color: #fff;}
+
+.visual .swiper-slide > div {padding: 0 0 11.7rem 4rem; height: 50rem; display: flex; justify-content: flex-end; flex-direction: column;
+box-sizing: border-box;} 
+.visual .swiper-slide > div p {font-family: 'NanumSquareRound'; line-height: 2.76rem;}
+.visual .swiper-slide > div p span {color: #FFD8BC; font-size: 1.8rem; text-shadow: 0.2rem 0 rgba(0,0,0,.15); font-weight: bold;}
+.visual .swiper-slide > div p em {display: block; color: #fff; font-size: 1.8rem; text-shadow: 0.2rem 0 rgba(0,0,0,.15); font-weight: bold;}
+.visual .swiper-slide > div img {width: 7.5rem; padding: .6rem 0 1.5rem;}
+.visual .swiper-slide > div.visual_page1 {background:url(../image/bg_visual1.png) no-repeat right bottom / auto 28.6rem #F17785;}
+.visual .swiper-slide > div.visual_page2 {background:url(../image/bg_visual2.png) no-repeat right bottom / auto 28.6rem #ABCD05;}
+.visual .swiper-slide > div .btn_go {display: block; width: 5.25rem; line-height: 3rem; border-radius: 3rem; 
+background:url(../image/bg_arrow_right.png) no-repeat right 1rem center / auto .8rem #fff; color: #999; padding: 0 0 0 1rem; font-size: 1.4rem;}
+
